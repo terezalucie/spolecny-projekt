@@ -23,6 +23,7 @@ body {
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  height: 250px;
 }
 header {
   padding-top: 4rem;
