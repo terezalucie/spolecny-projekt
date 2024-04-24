@@ -16,7 +16,7 @@ html {
 
 body {
   background-color: black;
-  color: white;
+  color: #a6a6a6;
 }
 
 .container {
@@ -59,3 +59,66 @@ h1.site-title span {
   stroke-width: 2;
 }
 
+.product__colors{
+  position: relative;
+  top: -9rem;
+  left: 8rem;
+}
+
+.color-box{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #a6a6a6;
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.white {
+  background-color: #a6a6a6;
+}
+.black {
+  background-color: rgb(0, 0, 0);
+}
+.red {
+  background-color: rgb(132, 15, 15);
+}
+.blue {
+  background-color: rgb(89, 217, 246);
+}
+
+.color__name {
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.white-name {
+  margin-left: 10px;
+}
+.black-name {
+  margin-left: 38px;
+}
+.red-name {
+  margin-left: 20px;
+}
+.blue-name {
+  margin-left: 15px;
+}
+
+.order {
+  background: none;
+  border: 2px solid #a6a6a6;
+  color: #a6a6a6;
+  border-radius: 30px;
+  padding: 10px 50px;
+  font-size: 20px;
+  position: relative;
+  left: 9rem;
+  top: 1.5rem;
+}
+
+.order:hover{
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
