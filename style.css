@@ -87,10 +87,10 @@ h1.site-title span {
   background-color: #ffffff;
 }
 .black {
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
 }
 .red {
-  background-color: rgb(143, 25, 25);
+  background-color: #8f1919;
 }
 .blue {
   background-color: #97d5e2;
@@ -137,4 +137,9 @@ h1.site-title span {
 .order:active {
   border: 2px solid #ffffff;
   color: #ffffff;
+}
+
+/* Vybraná barva pro JS */
+.vybrana {
+  box-shadow: 0px 0px 6px 3px rgb(255, 255, 255)
 }
