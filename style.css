@@ -84,16 +84,16 @@ h1.site-title span {
 
 /* Barvy košil */
 .white {
-  background-color: #ffffff;
+  background: #ede6e6;
 }
 .black {
-  background-color: #000000;
+  background: #171717;
 }
 .red {
-  background-color: #8f1919;
+  background-color: #831515
 }
 .blue {
-  background-color: #97d5e2;
+  background-color: #609cb0;
 }
 
 /* Názvy košil */
